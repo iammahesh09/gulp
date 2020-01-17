@@ -1,0 +1,32 @@
+/* Define standard variables and values for website */
+$bgcolor: #eee;
+$textcolor: rgb(221, 23, 132);
+$font-1x: 14px;
+$font-2x: 28px;
+$font-3x: 42px;
+
+/* Use the variables */
+body {
+  background-color: $bgcolor;
+}
+
+h1{font-size: $font-3x; color: $textcolor;}
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: #eee;
+    background-color: $textcolor;
+  }
+
+}
