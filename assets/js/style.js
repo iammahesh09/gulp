@@ -1,4 +1,4 @@
-const name = "Mahesh";
+const _name = "Mahesh";
 
-alert(`Hello! ${name}`)
+alert(`Hello! ${_name}`)
 

@@ -23,8 +23,10 @@
     "gulp-uglify": "^3.0.2"
   },
   "dependencies": {
+    "gulp-autoprefixer": "^7.0.1",
     "gulp-pug": "^4.0.1",
     "gulp-refresh": "^1.1.0",
+    "gulp-uglifycss": "^1.1.0",
     "uglify": "^0.1.5"
   }
 }
